@@ -1,16 +1,50 @@
 *{
     background-color: gray;
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
 }
-#Lol {
+form{
+    text-align: center;
+}
+nav{
     display: flex; 
-    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-style:solid;
+    justify-content: center;
+    
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+}
+h1{
+    font-size: 30px;
+    font-style: oblique;
+    text-align:center;
+
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+}
+nav li{
+    float: left;
+    font-size: 30px;
+}
+nav a{
+    color: red;
+}
+nav a:hover{
+    color: brown;
 }
 
-#Lol h1, #Lol img {
+nav h1, nav img {
     margin-right: 10px;
+
 }
 
 label[for="Nombre Completo"]{
