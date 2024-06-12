@@ -6,6 +6,15 @@
 }
 form{
     text-align: center;
+    border-radius: 6%;
+    padding: 2rem;
+    background-color: aqua;
+    border-style: solid;
+    max-width: 400px;
+    width: 40%;
+    bottom: 20px;
+    left: 20px;
+    position: relative;
 }
 nav{
     display: flex; 
@@ -59,19 +68,23 @@ nav h1, nav img {
 label[for="Nombre Completo"]{
     color: red;
     font-size: 35px;
+    background-color: aqua;
     
 }
 label[for="Email"]{
     color: red;
     font-size: 35px;
+    background-color: aqua;
 }
 label[for="Edad"]{
     color: red;
     font-size: 35px;
+    background-color: aqua;
 }
 label[for="Comentario"]{
     color: red;
     font-size: 35px;
+    background-color: aqua;
 }
 
 #nombreCompleto{
